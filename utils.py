@@ -81,8 +81,6 @@ def many_net_uhd(nets,traj_set,centers,dim,task,thr=1e-10,skip=[]):
         di.append(n.layers[0].input_shape[-1])
     di=np.asarray(di)
     
-    
-    predictions_comb=[]
 
     X = np.asarray(traj_set)
     jj= X.shape[1]           #length of trajectory times dimension
@@ -113,9 +111,13 @@ def many_net_uhd(nets,traj_set,centers,dim,task,thr=1e-10,skip=[]):
             pr_2b=nets[k+1].predict(rs_traj_b).flatten()
             pr_b=((1-d)*pr_b+d*pr_2b)
 
-    predictions_comb.append(pr_b)
 
-    return np.asarray(predictions_comb).flatten()
+    return np.asarray(pr_b).flatten()
 
-    
-    
+def my_atan(x1,x2):
+    '''function to compute the arctan'''
+    y=np.arctan2(x1,x2)
+    b=y<0
+    c=b.astype(int)*(2*np.pi)
+    d=y+c 
+    return    d;   
