@@ -19,6 +19,9 @@ All neural networks can be trained for 1D, 2D or 3D trajectories that is defined
 # Demonstration of the analysis
 Randi trains multiple networks for trajectories of different length for each task. All the pre-trained-networks can be found in the "nets" folder. The notebook file using_the_nets.ipynb demonstrates how any trajectory with an arbitrary length is analyzed using a combination of the nearest Randi nets for all tasks. This files uses the pre-trained networks that can be changed to user-trained networks if needed.   
 
+# Andi Challenge datasets analysis 
+We demonstrate how we use multiple networks to analyze the data for the [Anomalous Diffusion Challenge](http://andi-challenge.org/) in the notebook files infer_andi.ipynb and classify_andi.ipynb. The execution of these notebook files requires a download of the Anomalous Diffusion Challenge data, the link is provided in the notebook files. 
+
 # Issues
 If you have any problems executing the software, please do not hesitate to contact us! If you find any bugs, please report an issue and we will fix it. 
 
