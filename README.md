@@ -8,7 +8,7 @@ Randi requires Python 3.6 (or higher), tensorflow 2.0 (or higher), scikit-learn,
 The data that is used by Randi for training neural networks is generated using [andi_datasets](https://github.com/AnDiChallenge/ANDI_datasets) package. Once the data is created, it will be saved in "data" folder in .mat format.    
 
 # Training neural networks 
-For training the neural networks, Randi uses LSTM layers that are trained via Tenforflow. We recommend that these trainings are operated on a computer with CUDA-enabled GPU available. This would dramatically reduce the time it takes to train a recurrent neural network.
+For training the neural networks, Randi uses LSTM layers that are trained via Tenforflow. We recommend that these trainings are operated on a computer with a CUDA-enabled GPU available. This would dramatically reduce the time it takes to train a recurrent neural network.
 
 Classification task includes the identification of the underlying anomalous diffusion model for single trajectories. Entire workflow of RANDI from generating data to creating and training the neural network for this task is presented in classification_train_network.ipynb notebook file. 
 
