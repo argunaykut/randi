@@ -2,7 +2,7 @@
 Randi is a comprehensive deep learning framework for classification, inference and segmentation of anomalous diffusion trajectories using recurrent neural networks. 
 
 # Requirements 
-Randi requires Python 3.6 (or higher), tensorflow 2.0 (or higher), scikit-learn, scipy, andi_datasaets packages. 
+Randi requires Python 3.6 (or higher), tensorflow 2.0 (or higher), scikit-learn, scipy, andi_datasets packages. 
 
 # Data 
 The data that is used by Randi for training neural networks is generated using [andi_datasets](https://github.com/AnDiChallenge/ANDI_datasets) package. Once the data is created, it will be saved in "data" folder in .mat format.    
