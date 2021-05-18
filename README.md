@@ -32,4 +32,4 @@ If you use Randi for your research, please cite us here:
 
 Argun, Aykut, Giovanni Volpe, and Stefano Bo. "Classification, inference and segmentation of anomalous diffusion with recurrent neural networks." arXiv preprint arXiv:2104.00553 (2021).
 
-[Click for Bibtex item](https://scholar.googleusercontent.com/scholar.bib?q=info:jb8tncf58zcJ:scholar.google.com/&output=citation&scisdr=CgWvkRqMENLSsVx6s0o:AAGBfm0AAAAAYKN_q0ru8M0O9cA772CdyoEyw0ZPQSIS&scisig=AAGBfm0AAAAAYKN_q6YEMAHv7aekghaieYwfFmJeepLt&scisf=4&ct=citation&cd=-1&hl=en)
+[Click for Bibtex item](https://scholar.googleusercontent.com/scholar.bib?q=info:jb8tncf58zcJ:scholar.google.com/&output=citation&scisdr=CgWvkRqMENLSsVyC6H0:AAGBfm0AAAAAYKOH8H09sgOe18JuoZmAGCBB-A-7cWU1&scisig=AAGBfm0AAAAAYKOH8PTgwk5OJFO4ncyDcMP5AhMkm2lN&scisf=4&ct=citation&cd=-1&hl=en)
